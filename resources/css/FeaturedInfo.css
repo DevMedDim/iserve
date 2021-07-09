@@ -1,0 +1,46 @@
+.Featured{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.featuredItem{
+
+    flex: 1;
+    margin: 20px 30px;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39); 
+box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39);
+
+}
+.featuredTitle{
+    font-size: 20px;
+
+}
+.featuredStatContainer{
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+}
+.featuredStat{
+    font-size: 30px;
+    font-weight: 600;
+}
+.featuredStatRate{
+    font-size: 12px;
+    display: flex;
+    margin-left: 17px;
+}
+.featuredIcon{
+    margin-left: 5px;
+    color: green;
+}
+ .featuredIcon.negative{
+     color: red;
+     font-size: 15px;
+ }
+ .featuredSub{
+     font-size: 15px;
+     color: gray;
+ }

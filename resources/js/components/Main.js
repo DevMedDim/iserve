@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SideBar from './Admin/SideBar';
 import TopBar from './Admin/TopBar';
+import Home from './Admin/MainContent/Home';
 import "/resources/css/Main.css";
 
 function Main() {
@@ -10,9 +11,7 @@ function Main() {
             <TopBar />
             <div className="container">
                 <SideBar />
-                <div className="others">
-                    other pages
-                </div>
+               <Home/>
 
             </div>
 

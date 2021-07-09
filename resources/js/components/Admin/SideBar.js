@@ -1,4 +1,4 @@
-import { LineStyle, Timeline, TrendingUp } from '@material-ui/icons';
+import { ChatBubbleOutline, EmailOutlined, EuroOutlined, HomeWork, LineStyle, PeopleAltOutlined, QuestionAnswerOutlined, ReceiptOutlined, ReportOutlined, StorefrontOutlined, Timeline, TrendingUp, Work, WorkOffOutlined } from '@material-ui/icons';
 import React from 'react'
 import "/resources/css/SideBar.css";
 
@@ -10,28 +10,68 @@ export default function SideBar() {
                     <h3 className="sideBarTitle">Dashboard</h3>
                     <ul className="sideBarList">
                         <li className="sideBarListItem active">
-                            <LineStyle /> Home
+                            <LineStyle className="sideBarIcon" />
+                            Home
                         </li>
                         <li className="sideBarListItem">
-                             <Timeline/> Analytics
+                            <Timeline className="sideBarIcon" />
+                            Analytics
                         </li>
                         <li className="sideBarListItem">
-                           <TrendingUp/> Sales
+                            <TrendingUp className="sideBarIcon" />
+                            Sales
                         </li>
                     </ul>
-                    <h3 className="sideBarTitle">Dashboard</h3>
+                    <h3 className="sideBarTitle">Quick Menu</h3>
                     <ul className="sideBarList">
-                        <li className="sideBarListItem">
-                            <LineStyle /> Home
+                        <li className="sideBarListItem ">
+                            <PeopleAltOutlined className="sideBarIcon" />
+                            Users
                         </li>
                         <li className="sideBarListItem">
-                             <Timeline/> Analytics
+                            <StorefrontOutlined className="sideBarIcon" />
+                            Products
                         </li>
-
                         <li className="sideBarListItem">
-                           <TrendingUp/> Sales
+                            <EuroOutlined className="sideBarIcon" />
+                            Transactions
+                        </li>
+                        <li className="sideBarListItem">
+                            <ReceiptOutlined className="sideBarIcon" />
+                            Reports
                         </li>
                     </ul>
+                    <h3 className="sideBarTitle">Notifications</h3>
+                    <ul className="sideBarList">
+                        <li className="sideBarListItem ">
+                            <EmailOutlined className="sideBarIcon" />
+                            Mail
+                        </li>
+                        <li className="sideBarListItem">
+                            <QuestionAnswerOutlined className="sideBarIcon" />
+                            Feedback
+                        </li>
+                        <li className="sideBarListItem">
+                            <ChatBubbleOutline className="sideBarIcon" />
+                            Messages
+                        </li>
+                    </ul>
+                    <h3 className="sideBarTitle">Staff</h3>
+                    <ul className="sideBarList">
+                        <li className="sideBarListItem ">
+                            <HomeWork className="sideBarIcon" />
+                            Manage
+                        </li>
+                        <li className="sideBarListItem">
+                            <Timeline className="sideBarIcon" />
+                            Analytics
+                        </li>
+                        <li className="sideBarListItem">
+                            <ReportOutlined className="sideBarIcon" />
+                            Reports
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
