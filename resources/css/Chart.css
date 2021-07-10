@@ -1,0 +1,14 @@
+.Chart{
+
+
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+
+    -webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39); 
+    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39);
+    
+}
+.chartTitle{
+    margin-bottom: 20px;
+}

@@ -6,7 +6,7 @@ export default function TopBar() {
     return (
         <div className="topbar">
             <div className="topbarContainer">
-                <div className="logo">iServe</div>
+                <div className="logo"> <img className="logo" src="https://imagizer.imageshack.com/img924/5320/oDdKrN.png" alt="" /> </div>
                 <div className="topRight">
                     <div className="topbarIconContainer">
                         <NotificationsNone />
