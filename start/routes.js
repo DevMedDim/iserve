@@ -18,3 +18,5 @@ const Route = use('Route')
 
 Route.on('/').render('welcome')
 Route.get('admin/dashboard','AdminController.index')
+Route.get('admin/users','AdminController.index')
+Route.get('admin/users/user:userId','AdminController.index')
