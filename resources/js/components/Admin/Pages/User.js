@@ -1,5 +1,6 @@
-import { CalendarToday, CalendarTodayOutlined, EmailOutlined, LocationSearchingOutlined, PermIdentity, PhoneAndroidOutlined } from '@material-ui/icons'
+import { CalendarToday, CalendarTodayOutlined, EmailOutlined, LocationSearchingOutlined, PermIdentity, PhoneAndroidOutlined, PublishOutlined } from '@material-ui/icons'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import "/resources/css/User.css"
 
 export default function User() {
@@ -7,7 +8,9 @@ export default function User() {
     <div className="User">
       <div className="userTitleContainer">
         <h1 className="userTitle">Edit User</h1>
+        <Link to="/admin/newUser" >  
         <button className="userAddButton">Create</button>
+        </Link>
       </div>
       <div className="userContainer">
         <div className="userShow">
@@ -95,7 +98,14 @@ export default function User() {
               </div>
 
             </div>
-            <div className="userUpdateRight"></div>
+            <div className="userUpdateRight">
+              <div className="userUpdateUpload">
+                <img alt="" className="userUpdateImg" src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"  />
+               <label htmlFor="file"> <PublishOutlined className="userUpdateIcon" /> </label>
+                <input type="file" name="" id="file" style={{display: "none"}} />
+              </div>
+              <button className="userUpdateButton">Update</button>
+            </div>
           </form>
         </div>
       </div>
