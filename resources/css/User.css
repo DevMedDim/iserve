@@ -57,7 +57,7 @@
 }
 .userUpdateItem>label{
     margin-bottom: 10px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
 }
 .userUpdateInput{
@@ -78,6 +78,9 @@
 .userUpdateUpload{
     display: flex;
     align-items: center;
+}
+.userUpdateUpload>label{
+    display: flex;
 }
 .userShowImg{
     width: 40px;

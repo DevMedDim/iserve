@@ -101,7 +101,7 @@ export default function User() {
             <div className="userUpdateRight">
               <div className="userUpdateUpload">
                 <img alt="" className="userUpdateImg" src="https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"  />
-               <label htmlFor="file"> <PublishOutlined className="userUpdateIcon" /> </label>
+               <label htmlFor="file"> <PublishOutlined className="userUpdateIcon" />  Upload your Photo </label>
                 <input type="file" name="" id="file" style={{display: "none"}} />
               </div>
               <button className="userUpdateButton">Update</button>
