@@ -10,7 +10,7 @@ export default function SideBar() {
                 <div className="sideBarMenu">
                     <h3 className="sideBarTitle">Dashboard</h3>
                     <ul className="sideBarList">
-                    <Link to="/admin/dashboard">
+                    <Link to="/admin/dashboard" className="link">
                         <li className="sideBarListItem active">
                             <LineStyle className="sideBarIcon" />
                             Home                    
@@ -27,7 +27,7 @@ export default function SideBar() {
                     </ul>
                     <h3 className="sideBarTitle">Quick Menu</h3>
                     <ul className="sideBarList">
-                    <Link to="/admin/users" >
+                    <Link to="/admin/users" className="link" >
                         <li className="sideBarListItem ">
                             <PeopleAltOutlined className="sideBarIcon" />
                             Users
