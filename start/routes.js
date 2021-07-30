@@ -17,7 +17,17 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
-Route.get('admin/dashboard','AdminController.index')
-Route.get('admin/users','AdminController.index')
-Route.get('admin/users/user:userId','AdminController.index')
-Route.get('admin/newUser','AdminController.index')
+Route.get('admin/dashboard', 'AdminController.index')
+
+Route.group(() => {
+    Route.get('/', 'AdminController.index')
+    Route.get('user:userId', 'AdminController.index')
+    Route.get('newUser', 'AdminController.index')
+}).prefix('admin/users')
+
+Route.group(()=>{
+    Route.get('/', 'AdminController.index')
+    Route.get('service:serviceId', 'AdminController.index')
+    Route.get('newservice', 'AdminController.index')
+}).prefix('admin/services')
+

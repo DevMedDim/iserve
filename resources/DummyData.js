@@ -172,3 +172,49 @@ export const userData = [
 },
     
 ];
+export const ServiceRows = [
+  {
+      id: 1,
+      name: 'Handy Man',
+      img: 'https://kandua.com/-/wp-content/uploads/2020/09/handyman-1024x683-1-e1601858340482.jpg',
+      status: 'active',
+  },
+  {
+      id: 2,
+      name: 'Furniture Assembly',
+      img: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHltYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      status: 'active',
+  },
+  {
+      id: 3,
+      name: 'Wall Painting',
+      img: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHltYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      status: 'active',
+  },
+  {
+      id: 4,
+      name: 'Gardening',
+      img: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHltYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      status: 'active',
+  },
+  {
+      id: 5,
+      name: 'House Building',
+      img: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHltYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      status: 'active',
+  },
+  {
+      id: 6,
+      name: 'Office Cleaning',
+      img: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHltYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      status: 'active',
+  },
+  {
+      id: 7,
+      name: 'Plumbing Service',
+      img: 'https://images.unsplash.com/photo-1581783898377-1c85bf937427?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFuZHltYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+      status: 'active',
+  },
+
+  
+];

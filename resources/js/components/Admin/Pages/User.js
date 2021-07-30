@@ -8,7 +8,7 @@ export default function User() {
     <div className="User">
       <div className="userTitleContainer">
         <h1 className="userTitle">Edit User</h1>
-        <Link to="/admin/newUser" >  
+        <Link to="/admin/users/newUser" >  
         <button className="userAddButton">Create</button>
         </Link>
       </div>

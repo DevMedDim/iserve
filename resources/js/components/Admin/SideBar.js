@@ -34,10 +34,12 @@ export default function SideBar() {
                             
                         </li>
                         </Link>
+                        <Link to="/admin/services" className="link" > 
                         <li className="sideBarListItem">
                             <StorefrontOutlined className="sideBarIcon" />
-                            Products
+                            Services
                         </li>
+                        </Link>
                         <li className="sideBarListItem">
                             <EuroOutlined className="sideBarIcon" />
                             Transactions

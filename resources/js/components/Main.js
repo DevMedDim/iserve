@@ -8,6 +8,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Users from './Admin/Pages/Users';
 import User from './Admin/Pages/User';
 import NewUser from './Admin/Pages/NewUser';
+import Services from './Admin/Pages/Services';
+import Service from './Admin/Pages/Service';
+import  NewService from './Admin/Pages/NewService';
 
 function Main() {
     return (
@@ -21,6 +24,9 @@ function Main() {
                     <Route path="/admin/users" exact component={Users} />
                     <Route path="/admin/users/user:userId" exact component={User} />
                     <Route path="/admin/newUser" exact component={NewUser} />
+                    <Route path="/admin/services" exact component={Services} />
+                    <Route path="/admin/services/service:serviceId" exact component={Service} />
+                    <Route path="/admin/services/newservice" exact component={NewService} />
                 </Switch>
                
 
