@@ -1,3 +1,139 @@
 .Service{
     flex: 4;
 }
+.serviceTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.serviceAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+.serviceTitle{
+    font-weight: 800;
+    font-size: 30px;
+}
+.serviceShowServiceTitle{
+    color: rgb(189, 185, 185);
+}
+.serviceContainer{
+    display: flex;
+    margin-top: 20px;
+}
+.serviceShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39); 
+    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39);
+}
+.serviceUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39); 
+    box-shadow: 5px 5px 17px -4px rgba(0,0,0,0.39);
+    margin-left: 20px;
+}
+.serviceUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.serviceUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.serviceUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.serviceUpdateItem>label{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.serviceUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid rgb(199, 196, 196);
+}
+.serviceShowTop{
+    display: flex;
+    align-items: center;
+}
+.serviceUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.serviceUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.serviceUpdateUpload>label{
+    display: flex;
+}
+.serviceShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.serviceUpdateIcon{
+    cursor: pointer;
+}
+.serviceUpdateButton{
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    background-color: blueviolet;
+    color: cornsilk;
+}
+.serviceShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.serviceShowBottom{
+    margin-top: 20px;
+
+}
+.serviceShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(189, 185, 185);
+}
+.serviceShowInfoContainer{
+    display: flex;
+    align-items: center;
+    max-width: 20px 0;
+    color: #444;
+    margin-top: 10px;
+
+}
+.serviceShowIcon{
+    font-size: 15px !important;
+}
+.serviceShowInfoTitle{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.serviceUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}

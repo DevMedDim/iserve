@@ -23,28 +23,20 @@ export default function Services() {
             width: 200,
             renderCell: (params) => {
                 return (
-                    <div className="listUserColumn">
-                        <img className="userColumnImg" src={params.row.img} alt="Service image" />
+                    <div className="listServiceColumn">
+                        <img className="serviceColumnImg" src={params.row.img} alt="Service image" />
                         {params.row.name}
                     </div>
                 )
             }
         },
-        {
-            field: 'email',
-            headerName: 'Email',
-            width: 200
-        },
+      
         {
             field: 'status',
             headerName: 'Status',
             width: 200,
         },
-        {
-            field: 'transaction',
-            headerName: 'Transaction',
-            width: 200,
-        },
+      
         {
             field: 'action',
             headerName: 'Action',
@@ -52,10 +44,10 @@ export default function Services() {
             renderCell: (params) => {
                 return (
                     <>
-                        <Link to={"users/user" + params.row.id} className="link" >
-                            <button className="userListEdit">Edit</button>
+                        <Link to={"services/service" + params.row.id} className="link" >
+                            <button className="serviceListEdit">Edit</button>
                         </Link>
-                        <DeleteOutline onClick={() => handleDelete(params.row.id)} className="userListDelete" />
+                        <DeleteOutline onClick={() => handleDelete(params.row.id)} className="serviceListDelete" />
                     </>
 
                 )
@@ -66,6 +58,7 @@ export default function Services() {
     return (
         <div className="Services">
              <div style={{ height: 740, width: '100%' }}>
+             <h1>Services</h1>
                 <DataGrid rows={data} disableSelectionOnClick columns={columns} pageSize={13} checkboxSelection />
             </div>
         </div>
